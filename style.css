@@ -1,0 +1,106 @@
+body {
+  font-family: helvetica;
+}
+
+/* navbar */
+.navbar {
+  z-index: 3;
+}
+
+* {
+  z-index: 2;
+}
+
+.navbar-brand {
+  font-size: 20px;
+}
+
+.nav-link {
+  font-size: 15px;
+}
+
+.nav-link.active {
+}
+
+/* herosection */
+#hero {
+  background-color: #fff;
+  height: 100vh;
+  width: 100%;
+}
+
+.btn button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.button-1 {
+  width: 200px;
+  height: 40px;
+  background-color: #1d9bf0;
+  border: none;
+  font-size: 15px;
+  font-weight: 700;
+  margin-right: 23px;
+}
+
+.button-2 {
+  width: 200px;
+  height: 40px;
+  background-color: #1d9bf0;
+  border: none;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+/* layanan */
+#layanan {
+  background-color: #35293f;
+  padding: 35px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+.sub-title {
+  font-size: 18px;
+  color: #e8e8e8;
+}
+
+.card-layanan {
+  width: 100%;
+  height: 313px;
+  border-radius: 7px;
+  background-color: #0a5f81;
+  padding: 40px;
+  box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.007);
+}
+
+.circle-icon {
+  width: 70px;
+  height: 70px;
+  background-color: #e8e8e8;
+  border-radius: 50%;
+}
+
+/* shop */
+#shop {
+  padding: 60px;
+}
+
+/* About */
+#about {
+  padding: 60px;
+}
+
+/* jumbotron */
+.jumbotron {
+  padding: 23px;
+  background-color: #ffffff;
+}
+
+/* contact */
+#contact {
+  padding: 60px;
+}
